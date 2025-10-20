@@ -28,20 +28,135 @@
             /></a>
           </div>
           <div class="header-search-search">
-            <div class="header-search-search-input">
-              <div>
-                <a href="#"
-                  ><img src="./src/images/header/search.svg" alt="svg"
-                /></a>
-              </div>
+            <label for="main-search">
+              <a href="#"
+                ><img src="./src/images/header/search.svg" alt="svg"
+              /></a>
               <input type="text" placeholder="جستجو" />
+            </label>
+            <input type="radio" name="search-btn" id="main-search" />
+            <input type="radio" name="search-btn" id="close-cover-search" />
+            <div class="cover-search">
+              <div class="cover-search-main">
+                <div class="cover-search-main-top">
+                  <input type="text" name="" id="" />
+                  <label for="close-cover-search">
+                    <img src="./src/images/header/close.svg" alt="svg" />
+                  </label>
+                </div>
+                <div class="cover-search-main-bottom">
+                  <div class="search-image">
+                    <img src="./src/images/header/search-main.png" alt="png" />
+                  </div>
+                  <div class="search-history">
+                    <div class="search-history-top">
+                      <a href="#" class="search-link">
+                        <div class="search-history-top-right">
+                          <img src="./src/images/header/clock.svg" alt="svg" />
+                          <p>آخرین جستجوهای شما</p>
+                        </div>
+                        <img src="./src/images/header/remove.svg" alt="svg"
+                      /></a>
+                    </div>
+                    <div class="search-history-bottom">
+                      <div class="search-history-bottom-item">
+                        <p>ساعت مچی</p>
+                        <a href="#">
+                          <img
+                            src="./src/images/header/arrow-left.svg"
+                            alt="svg"
+                        /></a>
+                      </div>
+                      <div class="search-history-bottom-item">
+                        <p>کلاسور</p>
+                        <a href="#">
+                          <img
+                            src="./src/images/header/arrow-left.svg"
+                            alt="svg"
+                        /></a>
+                      </div>
+                      <div class="search-history-bottom-item">
+                        <p>عینک آفتابی</p>
+                        <a href="#">
+                          <img
+                            src="./src/images/header/arrow-left.svg"
+                            alt="svg"
+                        /></a>
+                      </div>
+                      <div class="search-history-bottom-item">
+                        <p>هندزفری</p>
+                        <a href="#">
+                          <img
+                            src="./src/images/header/arrow-left.svg"
+                            alt="svg"
+                        /></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="search-favorites">
+                    <div class="search-favorites-top">
+                      <a href="#" class="search-link">
+                        <div class="search-favorites-top-right">
+                          <img
+                            src="./src/images/header/favorite.svg"
+                            alt="svg"
+                          />
+                          <p>جستجوهای پرطرفدار</p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="search-favorites-bottom">
+                      <div class="search-favorites-bottom-item">
+                        <p>مانیتور</p>
+                        <a href="#">
+                          <img
+                            src="./src/images/header/arrow-left.svg"
+                            alt="svg"
+                        /></a>
+                      </div>
+                      <div class="search-favorites-bottom-item">
+                        <p>کانسیلر</p>
+                        <a href="#">
+                          <img
+                            src="./src/images/header/arrow-left.svg"
+                            alt="svg"
+                        /></a>
+                      </div>
+                      <div class="search-favorites-bottom-item">
+                        <p>پروتیین وی</p>
+                        <a href="#">
+                          <img
+                            src="./src/images/header/arrow-left.svg"
+                            alt="svg"
+                        /></a>
+                      </div>
+                      <div class="search-favorites-bottom-item">
+                        <p>کراتین</p>
+                        <a href="#">
+                          <img
+                            src="./src/images/header/arrow-left.svg"
+                            alt="svg"
+                        /></a>
+                      </div>
+                      <div class="search-favorites-bottom-item">
+                        <p>ترازو</p>
+                        <a href="#">
+                          <img
+                            src="./src/images/header/arrow-left.svg"
+                            alt="svg"
+                        /></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="header-search-login">
             <a href="#" class="header-search-login-notif">
               <img src="./src/images/header/bells.svg" alt="notif" />
             </a>
-            <a href="#" class="header-search-login-register">
+            <a href="./form.html" class="header-search-login-register">
               <img src="./src/images/header/arrow.svg" alt="arrow" />
               ورود
               <span class="line-vertical"></span>
@@ -8042,8 +8157,10 @@
               <div class="header-menu-right-items">
                 <a href="#" class="menu-links">در دیجی‌کالا بفروشید!</a>
               </div>
+            <div class="effect"></div>
             </nav>
           </div>
+
           <div class="header-menu-left">
             <label for="your-city">
               <div class="your-city-item">
@@ -11956,7 +12073,7 @@
                   id="email"
                   placeholder="ایمیل شما"
                 />
-                <div class="register">ثبت</div>
+                <input type="submit" value="ثبت" />
               </div>
             </div>
           </div>

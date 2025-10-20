@@ -175,15 +175,16 @@ footer {
               border: none;
               margin-top: 5px;
               border-radius: 8px;
+              padding-right: 15px;
+              box-sizing: border-box;
+              color: rgb(215, 0, 0);
               &::placeholder {
                 font-family: var(--font-family);
                 font-size: 15px;
                 color: rgb(159, 166, 178);
-                padding-right: 15px;
-                box-sizing: border-box;
               }
             }
-            .register {
+            input[type="submit"] {
               width: 55px;
               height: 48px;
               background-color: #e0e0e2;
@@ -195,6 +196,7 @@ footer {
               justify-content: center;
               align-items: center;
               margin-top: 3px;
+              border: unset;
             }
           }
         }
