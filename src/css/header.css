@@ -257,7 +257,7 @@
         .line-vertical {
           display: inline-block;
           width: 1.5px;
-          height: 15px;
+          height: 10px;
           background-color: #2b2b2b;
         }
       }

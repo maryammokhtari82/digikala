@@ -1,0 +1,52 @@
+.slider {
+  width: 100%;
+  height: 400px;
+  .swiper {
+    width: 100%;
+    height: 100%;
+    .swiper-slide {
+      a {
+        width: 100%;
+        height: 100%;
+        img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+    .swiper-next {
+      margin-top: 120px !important;
+      margin-left: 1390px;
+      opacity: 0;
+      transition: 300ms;
+    }
+    .swiper-prev {
+      margin-top: 120px;
+      margin-right: 35px;
+      opacity: 0;
+      transition: 300ms;
+    }
+    .swiper-pagination-bullet {
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background-color: gray;
+      opacity: 0.3;
+      opacity: 1;
+      transition: all 0.3s ease;
+    }
+
+    .swiper-pagination-bullet-active {
+      background-color: #ffff;
+      width: 16px;
+      height: 6px;
+      border-radius: 10px;
+    }
+    &:hover .swiper-next,
+    &:hover .swiper-prev {
+      opacity: 1;
+    }
+  }
+}

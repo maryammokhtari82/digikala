@@ -34,15 +34,15 @@
 .swiper-button-prev {
   width: 40px;
   height: 40px;
-  background-color: #ffffff;
-  border: 1px solid lightgray;
+  background-color: #fff;
+  border: 1px solid #c0c2c5;
   border-radius: 50%;
 }
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
   font-size: 12px;
   font-weight: bold;
-  color: grey;
+  color: #424750;
 }
 .swiper-button-disabled {
   opacity: 0 !important;

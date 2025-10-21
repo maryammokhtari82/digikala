@@ -59,8 +59,5 @@
     &:hover .swiper-prev {
       opacity: 1;
     }
-    &:active .slider-pagination-bullet {
-      background-color: aliceblue;
-    }
   }
 }
