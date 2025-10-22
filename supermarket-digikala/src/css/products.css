@@ -1,0 +1,240 @@
+.products {
+  width: 100%;
+  height: 463px;
+  margin-bottom: 18px;
+  .product-center {
+    width: 87%;
+    height: 100%;
+    margin: 0 auto;
+    border: 0.8px solid rgb(224, 224, 226);
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    .product-center-top {
+      width: 100%;
+      height: 16%;
+      display: flex;
+      justify-content: space-between;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      .product-center-top-right {
+        .product-name {
+          font-family: var(--font-family);
+          font-size: 16px;
+          font-weight: 700;
+          color: rgb(12, 12, 12);
+          margin-top: 5px;
+        }
+        .green-line {
+          width: 70px;
+          height: 2px;
+          background-color: #029a49;
+          margin-top: 15px;
+        }
+      }
+      .product-center-top-left {
+        a {
+          width: fit-content;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          p {
+            font-family: var(--font-family);
+            font-size: 13px;
+            font-weight: 700;
+            color: #19bfd3;
+            margin-top: 5px;
+          }
+          img {
+            width: 15px;
+            height: 15px;
+            margin: 3px 5px 0 0;
+          }
+        }
+      }
+    }
+    .product-center-bottom {
+      width: 100%;
+      height: 84%;
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+      .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left: 0.8px solid rgb(240, 240, 241);
+        &:nth-of-type(17) {
+          border-left: none;
+        }
+        a {
+          display: block;
+          width: 100%;
+          height: 100%;
+          text-decoration: none;
+          .swiper-slide-item {
+            width: 100%;
+            height: 100%;
+            padding: 12px 8px;
+            box-sizing: border-box;
+            .image-one {
+              display: block;
+              width: 64px;
+              height: 14px;
+              margin: 8px 0px;
+            }
+            .image-two {
+              display: block;
+              width: 150px;
+              height: 150px;
+              object-fit: cover;
+              margin: 0 auto !important;
+            }
+            .image-three {
+              display: block;
+              width: 108px;
+              height: 13px;
+              margin: 8px 0px;
+              padding-left: 40px;
+              box-sizing: border-box;
+            }
+            .main-image {
+              margin-top: 30px !important;
+            }
+            .circle {
+              position: absolute;
+              width: 25px;
+              height: 25px;
+              border: 0.8px solid rgb(2, 154, 73);
+              border-radius: 50%;
+              top: 158px;
+              right: 22px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background-color: rgb(255, 255, 255);
+            }
+            h3 {
+              font-family: var(--font-family), var(--font-family-number),
+                var(--english-font-family);
+              font-size: 12px;
+              font-weight: 500;
+              color: rgb(63, 64, 100);
+              line-height: 26px;
+              margin: 0 auto;
+              margin-top: 5px;
+              height: 54px;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              box-orient: vertical;
+              -webkit-line-clamp: 2;
+              line-clamp: 2;
+              overflow: hidden;
+            }
+            .main-text {
+              padding-top: 8px !important;
+              box-sizing: border-box;
+            }
+            .price {
+              width: 100%;
+              display: flex;
+              flex-flow: row-reverse;
+              margin-top: 32px;
+              align-items: center;
+              justify-content: space-between;
+              .price-toman {
+                display: flex;
+                align-items: center;
+                p {
+                  font-family: var(--font-family-number);
+                  font-size: 15px;
+                  font-weight: 600;
+                  color: rgb(63, 64, 100);
+                  margin-left: 2px;
+                }
+                img {
+                  width: 18px;
+                  height: 18px;
+                }
+              }
+              .price-discount {
+                width: 34px;
+                height: 20px;
+                border-radius: 16px;
+                background-color: rgb(211, 47, 47);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: rgb(255, 255, 255);
+                font-family: var(--font-family-number);
+                font-size: 11px;
+                font-weight: 500;
+              }
+            }
+            .origin-price {
+              font-family: var(--font-family-number);
+              font-size: 11px;
+              font-weight: 400;
+              color: rgb(192, 194, 197);
+              text-decoration: line-through;
+              text-align: end;
+              margin: 8px 0 0 20px;
+            }
+            .last-part {
+              width: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              flex-flow: row-reverse;
+              margin-top: 7px;
+              .clock {
+                font-family: var(--font-family-number);
+                font-size: 12px;
+                font-weight: 500;
+                color: rgb(239, 64, 86);
+              }
+            }
+          }
+        }
+      }
+      .last {
+        width: 100%;
+        height: 100%;
+        padding-left: 24px;
+        box-sizing: border-box;
+        a {
+          width: fit-content;
+          height: fit-content;
+          text-decoration: none;
+          display: block;
+          margin: 0 40px;
+
+          .view-all {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            border: 0.8px solid rgb(15, 171, 198);
+            margin: 0 auto;
+            margin-top: 140px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+              width: 18px;
+              height: 18px;
+            }
+          }
+          p {
+            font-family: var(--font-family);
+            font-size: 12px;
+            font-weight: 500;
+            color: rgb(63, 64, 100);
+            margin-top: 10px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
