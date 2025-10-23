@@ -528,7 +528,7 @@
           top: 169.5px;
           left: 38%;
           opacity: 0;
-          transition: 500ms;
+          transition: 300ms;
           transition-delay: 100ms;
           transform: translateX(0);
           transform-origin: left;
